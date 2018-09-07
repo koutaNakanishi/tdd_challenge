@@ -11,4 +11,4 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(calc.calc_price([]), 0)
         self.assertEqual(calc.calc_price([11, 12, 13]),40)
 
-        
+

@@ -24,7 +24,7 @@ class MockedKVS:
     '''
     SomeKVSUsingDynamoDB クラスと同じインターフェースを持つ偽物です。
     スタブとスパイを兼ねます。
-    '''
+    '
     def __init__(self, initial_data=None):
         if initial_data is None:
             initial_data = {}
