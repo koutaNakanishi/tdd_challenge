@@ -11,3 +11,6 @@ class Sample:
         if distance < 0 or elapsed_time <= 0:
             raise ValueError()
         return distance / elapsed_time
+
+
+
