@@ -10,3 +10,17 @@ class Calc:
             result+=1
         return result
 
+
+    def input_to_data(self,input):
+
+        ret = []
+        for arr in input:
+            ret.append(arr.strip().split(","))
+
+
+        for i in range(len(ret)):
+            for j in range(len(ret[i])):
+                ret[i][j]=int(ret[i][j])
+                
+        return ret
+
