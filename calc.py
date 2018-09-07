@@ -9,3 +9,4 @@ class Calc:
         if tmp%10>=5:
             result+=1
         return result
+
